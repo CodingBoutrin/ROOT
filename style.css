@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+:root {
+  --color--red:#ff0000;
+  --color--blue:#0000ff;
+  --color--black: #000000;
+}
+
+:root {
+  --family--poppins:"Poppins", sans-serif;
+  --family--Shrikhand: "Shrikhand", cursive;
+}
+
+:root {
+  font-size: var(--font--size_30);
+}
+
+h1 {
+  color: var(--color--blue);
+  font-family: var(--family-poppins);
+}
+
+p {
+  color: var(--color--blue);
+  font-family: var(--family--Shrikhand);
+  font-size: var(--font--size_30);
+}
+
+.block__title {
+  border: solid;
+}
+.block__title h1 {
+  color: var(--color--red);
+}
+
+/*# sourceMappingURL=style.css.map */
